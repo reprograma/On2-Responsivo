@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    background-color: black;
+    height: 43vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    margin-top: 45px;
+}
+
+.nav-header{
+    margin: 5px;  
+    position: fixed;
+    height: 6vh;
+}
+
+
+.header-title_contrasct{
+    color: #5BCBB2;
+}
+
+.icon-header{
+    width: 10%
+}
+
+.menu-header{
+    width: 10%;
+}
+
+a{
+    text-decoration: none;
+    
+} 
+
+
+
+.navbar-none{
+    display: none;
+}
+
+.nav-responsive{
+    display: inline;
+    width: 100%;
+    position: fixed;
+    margin-top: 60px;
+}
+
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: #48CFAD;
+}
+
+li > a {
+    color: white;
+}
+.container-header{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* .header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+} */
+
+.banner{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding: 15px;
+}
+.banner-border{
+    border: 1px solid white;   
+     width: 32vw;
+     margin-bottom: 75px;
+}
+.banner > h1 {
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner > h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Portifolio-title{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7vh;
+}
+
+.Portifolio-title > h1 {
+    text-transform: uppercase;
+}
+.Portifolio-title > h4 {
+    color: #B3B3B3;
+    font-weight: 500;
+}
+
+.img-sites{ 
+    height: 25vh;
+    margin-bottom: 10px;
+}
+
+.sites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-sites{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+
+h4{
+    color: #656D78;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3vh;
+    font-size: 0.9rem;
+}
+
+.link-sites{
+    color: #48CFAD;
+    border: 2px solid #48CFAD;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 0.87rem;
+    margin-bottom: 21px;
+
+}
+
+.aboutme{
+    background-color: #000000;
+    margin-top: 30px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-about{
+    color: white;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.about-img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+
+figure{
+    margin-top: 6vh;
+}
+
+.about-descript{
+    color: white;
+    font-weight: 100;
+    margin-top: 5vh;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.skill-icons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.skill-img{
+    width: 90px;
+}
+
+.skill-icons > h3{
+
+margin: 10px 0 10px 0;
+}
+
+
+.pc{
+    width: 119px;
+}
+.formscontact{
+    background-color: #000000;
+}
+
+.contact{
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 67vw;
+    margin-top: 5vh;
+
+}
+
+form{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.btn-forms{
+    
+    width: 171px;
+    background-color: black;
+}
+
+.footer-img{
+    width: 8%;
+    
+}
+
+.textarea-form{
+    background-color: black;
+border: 2px solid white;
+padding: 10px;
+color: white;
+width: 67vw;
+margin-top: 5vh;}
+
+@media(min-width:768px){
+
+    .textarea-form{
+        width: 35vw;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    .menu-header{
+        display: none;
+    }
+
+    .navbar-none{
+        display: flex;
+        width: 100%;
+    }
+
+    nav > ul {
+        width: 40%;
+        height: 10vh;
+        align-items: center;
+        background-color: black;
+    }
+    header{
+        height: 80vh;
+    }
+
+    .banner > h1 {
+        font-size: 3.5rem;
+    }
+
+    .banner > h3 {
+        font-size: 1.5rem;
+    }
+
+    .container-header{
+        margin-top: 140px;
+        width: 54%;
+    }
+
+    .img-sites{
+        height: 50vh;
+    }
+    h4{
+        width: 78%;
+        font-size: 1.2rem;
+    }
+
+    .Portifolio-title > h4 {
+        text-align: center;
+    }
+
+    .skill-icons{
+        width: 100%;
+        flex-direction: unset;
+    }
+    .skill-group > figure {
+        text-align: center;
+    }
+
+    .skill-group > h3 {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .skill-group{
+        
+        margin-right: 51px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        width: 35vw;
+    }
+    
+    .footer-img{
+        width: 3%;
+        margin-top: 20px;
+        margin-bottom: 3px;
+    }
+
+      
+   
+}
