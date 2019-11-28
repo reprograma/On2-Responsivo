@@ -132,4 +132,16 @@ Exercicio 3 - Extra (Não obrigatório a entrega/resolução):
 https://www.figma.com/file/m2Cr07L1gsWQoKf6X0yx8K/Exerc%C3%ADcio-extra-N%C3%A3o-obrigat%C3%B3rio-HTML-CSS
 Exercício 4 - Extra (Não obrigatório a entrega/resolução):
 https://www.figma.com/file/SxmXbT4lWspi7glqhfjIMFKE/Exercicio-Extra-Responsivo
+---------------------------------------------------
 
+#### Dicas
+
+Precisa testar seu site mobile ? 
+Habilite o modo desenvolvedor no seu celular (pesquisa no google porque cada celular tem um)
+Conecte o cabo usb no pc e no celular e ative a opção ''permitir transferência de arquivo"
+Abra o google e depois o console (ctrl+shift+i)
+Clique nos 3 pontinhos do lado direito 
+Clique em 'more tools' e depois em ' remote devices' 
+Abra o google no seu celular
+Irá aparecer o nome do seu celular, só clicar em cima dele e o modo para inspecionar qualquer site no mobile irá estar habilitado :D 
+Para mais informações: https://developers.google.com/chrome-developer-tools/docs/remote-debugging
